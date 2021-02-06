@@ -1,0 +1,46 @@
+body{
+	background: #e7e6e1;	
+	font-family: system-ui;
+	text-align: center;
+}
+
+#full-pag{
+	box-shadow: inset 1px 1px 5px;
+}
+
+.hori-bar {
+	display: inline-block;
+	width: 20px;
+	height: 10px;
+	background: #f2a154;
+}
+
+#gonza {
+	font-family: system-ui;
+	display: inline-block;
+	text-align: center;
+	color: #f2a154;
+}
+
+#salute-emoji{
+	font-size: 4vw;
+}
+
+#salute-arrow{
+	text-align: center;
+}
+
+#title{
+	font-size: 6vw;
+	color: #f2a154;
+}
+
+#introduce{
+	color: #f2a154;
+	font-size: 2vw;
+}
+
+.input {
+	width: 400px;
+	border-radius: 8px;
+}
