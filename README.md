@@ -8,8 +8,8 @@ This is a web app that measures the number you want to know its total digits.
 
 ### Observations
 
--Max length supported: 308.
--Only accepts integer numbers, not float.
+- Max length supported: 308.
+- Only accepts integer numbers, not float.
 
 ### Examples
 
