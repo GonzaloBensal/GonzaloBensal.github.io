@@ -2,24 +2,34 @@ body{
 	background: #e7e6e1;	
 	font-family: system-ui;
 	text-align: center;
+    padding: 0;
+    margin: 0;
+    min-height: 100vh;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #full-pag{
 	box-shadow: inset 1px 1px 5px;
 }
 
+
 .hori-bar {
 	display: inline-block;
 	width: 20px;
 	height: 10px;
-	background: #f2a154;
+	background: #fa0f45;
 }
 
-#gonza {
+.gonza {
 	font-family: system-ui;
 	display: inline-block;
 	text-align: center;
-	color: #f2a154;
+	transition: all 0.3s;
+	cursor: pointer;
+	color: #fa0f45;
 }
 
 #salute-emoji{
@@ -32,7 +42,7 @@ body{
 
 #title{
 	font-size: 6vw;
-	color: #f2a154;
+	color: #fa0f45;
 }
 
 #introduce{
@@ -42,5 +52,29 @@ body{
 
 .input {
 	width: 400px;
-	border-radius: 8px;
+	border-radius: 8px; /*  le da borde circular al input */
+}
+
+.wrap-link {
+	display: flex;
+    justify-content: space-evenly;
+    margin-top: 1rem;
+	flex-wrap: wrap-reverse;
+	
+}
+
+.git-link img {
+	width: 30px;
+}
+
+.ig-link img {
+	width: 30px;	
+}
+
+.fb-link img {
+	width: 30px;	
+}
+
+.linkedIn-link img {
+	width: 30px;
 }

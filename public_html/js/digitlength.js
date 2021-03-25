@@ -1,4 +1,5 @@
 let switchEmojis = (valor) => {
+// changes the emoji from the result string of the main program.
   switch(valor){
     case 0:
         emoji = " 🙄";
@@ -43,6 +44,7 @@ let digitor = (valor, contador) => {
 };
 
 let digitLength = (valor) => {
+// main program
   let contador = 0;
   let res = Math.abs(valor.value);
   while(res >= 1) {

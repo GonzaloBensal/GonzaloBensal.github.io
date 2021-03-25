@@ -8,29 +8,64 @@
         <script src="./js/digitlength.js"></script>
     </head>
     <body>
-        <div id="logo">
-            <div class="hori-bar"></div>
-            <h3 id="gonza">Gonzalo</h3>
-        </div>
-        <div id="program">
-            <div id="salute-arrow">
-                <h2 id="salute-emoji">👋 </h2>
-                <h2 id="down-arrow"> ⏬ </h2>
+        <main class="main">
+            <div class="wrapper">
+                <div class="content">
+                    <div class="logo">
+                        <div class="hori-bar"></div>
+                        <h3 class="gonza">Gonzalo</h3>
+                    </div>
+                    <div class="wrap-salute">
+                        <div id="salute-arrow">
+                            <h2 id="salute-emoji">👋 </h2>
+                            <h2 id="down-arrow"> ⏬ </h2>
+                        </div>
+                    </div>
+                        <br>
+                        <br>
+                        <div class="program">
+                            <h1 id="title">Digit Counter</h1>
+                            <h2 id="introduce">Introducing Digit Counter, it counts a number's digits</h2>
+                            <h3>⏬ Enter a number down here ⏬</h3>
+                            <input type="number" name="ingreso-numero" class="input" onchange="digitLength(this);" autofocus/>
+                            <br>
+                            <br>
+                            <div id="resultado"></div>
+                            <br>
+                            <div class="btn_wrapper">
+                                <button class="home power">
+                                    HOME
+                                </button>
+                            </div>
+                            <br>		
+                        </div>
+                        <div class="wrap-link">
+                            <div class="git-link">
+                                <!-- target="_blank" abre nueva pestaña -->
+                                <a href ="https://github.com/GonzaloBensal" target="_blank"> 
+                                    <img src="./assets/img/github.png" alt>
+                                </a>
+                            </div>
+                            <div class="ig-link">
+                                <!-- target="_blank" abre nueva pestaña -->
+                                <a href ="https://www.instagram.com/gonzalo1dos3/" target="_blank"> 
+                                    <img src="./assets/img/instagram.png" alt>
+                                </a>
+                            </div>
+                            <div class="fb-link">
+                                <a href="https://www.facebook.com/gonzalojulianb/" target="_blank">
+                                    <img src="./assets/img/facebook.png" alt>
+                                </a>
+                            </div>
+                            <div class="linkedIn-link">
+                                <a href="https://www.linkedin.com/in/gonzalo-bensal-993b20162/" target="_blank">
+                                    <img src="./assets/img/linkedin.png" alt>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <br>
-            <br>
-            <h1 id="title">Digit Counter</h1>
-            <h2 id="introduce">Introducing Digit Counter, it counts a number's digits</h2>
-            <h3>⏬ Enter a number down here ⏬</h3>
-            <input type="number" name="ingreso-numero" class="input" onchange="digitLength(this);" autofocus/>
-            <br>
-            <br>
-            <div id="resultado"></div>
-            <br>
-            <br>		
-            <div class="git">
-                <a href ="https://github.com/GonzaloBensal">ctrl/cmd+click to see my Github account 😬</a>
-            </div>
-        </div>
+        </main>
     </body>
 </html>
