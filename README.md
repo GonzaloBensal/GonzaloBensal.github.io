@@ -24,5 +24,6 @@
     2. -1001 -> 4 digits
     3. 0 -> 1 digit
     4. null -> 0 digits
+    5. a number with more than 308 digits -> 0 digits (FATAL! don't do this 😂)
 
 Made by Gonzalo Bensal 😁
