@@ -26,4 +26,10 @@
     4. null -> 0 digits
     5. a number with more than 308 digits -> 0 digits (FATAL! don't do this 😂)
 
+## How to use it
+    1. Clone or download this repo
+    2. Go to public_html and search 'index.html'
+    3. Double click
+    4. Have fun 🐱‍🏍
+
 Made by Gonzalo Bensal 😁
